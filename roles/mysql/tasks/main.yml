@@ -1,0 +1,4 @@
+# tasks file for mysql
+- import_tasks: install_packages.yml
+- import_tasks: configure_mysql.yml
+- import_tasks: create_blog_db.yml

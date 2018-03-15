@@ -1,0 +1,11 @@
+- name: 'Install MySQL packages'
+  apt: name={{ item }} state=latest
+  with_items:
+    - python-pip
+    - python-mysqldb
+    - mysql-server
+    - mysql-client
+    - libmysqlclient-dev
+
+- name: 'Install MySql python using pip'
+  pip: name=MySQL-python

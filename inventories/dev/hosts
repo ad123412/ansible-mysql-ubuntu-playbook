@@ -1,0 +1,5 @@
+[cmiiagubuntu]
+52.187.0.73
+
+[cmiiagubuntu:vars]
+ansible_ssh_user=cmiiag

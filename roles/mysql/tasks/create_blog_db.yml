@@ -1,0 +1,5 @@
+- name: Create cmidb DB in mysql
+  mysql_db: name=cmidb state=present
+
+- name: Create cmi User in mysql
+  mysql_user: name=cmi password=cmiiag priv=cmidb.*:ALL state=present
