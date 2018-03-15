@@ -1,1 +1,0 @@
-ansible-playbook -i inventories/dev --vault-password-file=vault_password.txt site.yml
